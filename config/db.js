@@ -18,3 +18,29 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+
+
+
+
+
+
+
+
+// const mysql = require("mysql2");
+
+// const db = mysql.createConnection({
+//   host: "localhost", // Or your database host
+//   user: "root", // MySQL username
+//   password: "Alliswell@12", // MySQL password
+//   database: "nodeprojects", // Your database name
+// });
+
+// db.connect((err) => {
+//   if (err) {
+//     console.error("❌ Error connecting to MySQL:", err);
+//   } else {
+//     console.log("✅ Connected to MySQL database");
+//   }
+// });
+
+// module.exports = db;
